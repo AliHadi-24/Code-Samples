@@ -1,0 +1,422 @@
+/*
+Uswd Colors
+orange - #ff6633
+Blue - #3399ff
+site Height 1755px
+*/
+* {
+padding:0;
+margin:0;
+font-family:Gotham, Helvetica Neue, Helvetica, Arial," sans-serif";
+}
+
+body {
+background-image:url(../img/bg.png);
+background-repeat:repeat-x;
+padding:0;
+margin:0;
+}
+
+.container {
+width:960px;
+margin:auto;
+height: auto;
+
+}
+
+/*  Start Header      */
+header {
+height:120px;
+}
+
+.logo {
+float:left;
+margin:15px 0 0 5px;
+}
+
+nav {
+float:right;
+margin:45px 0 0;
+}
+
+nav ul {
+list-style:none;
+}
+
+nav ul li {
+display:inline-block;
+}
+
+nav ul li a,.drop-btn {
+color:#39f;
+text-decoration:none;
+font-size:1em;
+text-transform:uppercase;
+/*-- 3399ccmargin left will add the yello line in the drop menu */
+margin:0;
+font-family:Gotham, Helvetica Neue, Helvetica, Arial," sans-serif";
+background-color:#333;
+padding:10px;
+border:none;
+text-shadow:1px 1px #000;
+}
+/*         Button Styles                       */
+.signIn,.bottle-article button,.productsBox1 button, .orderNow-btn {
+color:#fff;
+background-color:#f30;
+padding:10px;
+border:0;
+}
+
+.signIn:hover,.bottle-article button:hover,.productsBox1 button:hover, .orderNow-btn:hover {
+color:#fff;
+background-color:#3399ff;
+padding:10px;
+border:0;
+}
+
+.dropdown-content {
+display:none;
+position:absolute;
+/* Removing background-color will remove the orange line along the dropdpwn menu*/
+background-color:#f63;
+min-width:155px;
+padding:0 4px 0 0;
+}
+
+.dropdown-content a {
+color:#fff;
+padding:8px 10px;
+text-decoration:none;
+display:block;
+}
+
+.dropdown-content a:hover {
+background-color:#f1f1f1;
+color:#000;
+z-index:999;
+}
+
+.dropdown:hover .dropdown-content {
+display:block;
+color:#444;
+/*  Removing the z-index will cause the menu to apper under the slider    */
+z-index:999;
+}
+
+.drop-btn:hover,nav ul li a:hover {
+background-color:#444;
+}
+
+/*  End drop Down Buttun   */
+/*   End  Header      */
+/*  Start Article      */
+/*  Start Slider      */
+.sliderEdited {
+margin-top:-20px;
+}
+
+
+.mainHeroTex h1 {
+font-size: 0.2em;
+
+text-decoration: underline;
+}
+/*  Start EndSlider      */
+.article {
+width:100%;
+height:1250px;
+margin:0;
+padding:0;
+background-color:#444;
+}
+
+.topSellerHeader {
+color:#fff;
+text-decoration:none;
+font-size:1.5em;
+text-transform:uppercase;
+font-family:Gotham, Helvetica Neue, Helvetica, Arial," sans-serif";
+background-color:#333;
+padding:15px 0 10px;
+margin:0 0 10px;
+width:100%;
+text-align:center;
+border:1px solid #000;
+}
+
+/*  Start  ItemBoxes   */
+.productsBoxes {
+/*  To make the items centerd we need this formula
+	the parents width - (box width + box margin + box padding) 
+	*/
+width:870px;
+margin:auto;
+}
+
+.productsBox1 {
+color:#fff;
+background-color:#333;
+width:250px;
+height:350px;
+margin:10px;
+padding:10px;
+float:left;
+font-family:Gotham, Helvetica Neue, Helvetica, Arial," sans-serif";
+}
+
+.productsBox1 img {
+margin:0 15%;
+height:140px;
+}
+
+.productsBox1 .productsContant {
+width:230px;
+height:150px;
+}
+
+.productsBox1 h1 {
+font-size:1.5em;
+text-align:inherit;
+}
+
+.productsBox1 p,.productsBox1 h2,.productsBox1 h1 {
+margin:5px 0;
+padding:0 0 0 10px;
+}
+
+.productsBox1 button {
+font-size:1em;
+border-radius:3px;
+color:#fff;
+margin:5px 7px 5px 13px;
+padding:10px;
+width:100px;
+border:0;
+}
+
+.productsBox1 button:hover {
+box-shadow:0 5px 5px #ff3300 ;
+}
+
+/*  End  ItemBoxes   */
+/*  End Article      */
+/*  Start Footer      */
+footer {
+width:auto;
+height:50px;
+margin:auto;
+background-color:#444;
+border-top:5px #FF0004;
+text-align:center;
+}
+
+footer div {
+width:960px;
+height:50px;
+margin:auto;
+background-color:#333;
+}
+
+footer .cr-text {
+width:500px;
+margin:auto;
+padding:15px 0;
+font-size:1em;
+color:#fff;
+text-transform:uppercase;
+font-family:Gotham, Helvetica Neue, Helvetica, Arial," sans-serif";
+}
+
+.divider {
+width:960px;
+height:2px;
+margin:auto;
+background-color:red;
+}
+
+.divider3 {
+background-color:#666;
+}
+
+.divider2 {
+background-color:#f63;
+/*Orange*/
+}
+
+.divider1 {
+background-color:#0090d6;
+/*Blue*/
+}
+
+.divider1-blue {
+height:5px;
+}
+
+/*  End Footer     */
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////   START PAGE 2           ///////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.bottle-article,.partners-article {
+background-color: #555;
+margin:-20px 0 0;
+width:960px;
+padding:0;
+height:auto;
+}
+
+.bottle-con {
+margin:auto;
+width:960px;
+height:400px;
+background-color:#444;
+}
+
+.bottle {
+float:right;
+margin:0 150px 10px 0;
+}
+
+.bottle-con h1 {
+width:auto;
+height:auto;
+color:#fff;
+margin: 20px 0 0 100px;
+padding:0;
+float:left;
+}
+
+.bottle-con p {
+height:210px;
+width:400px;
+padding:50px 150px;
+color:#fff;
+font-family:sans-serif;
+font-size:1.3em;
+}
+.orderNow-btn {
+    width: auto;
+    height: auto;
+    margin: 0 0 0 100px;
+    padding: 5px;
+    font-size: 1em;
+}
+
+#btn-slideT,#btn-slideT:hover {
+margin:10px 37% 0;
+padding:10px 20px;
+font-size:1em;
+font-family:sans-serif;
+}
+
+table {
+border:3px solid #444;
+color:#fff;
+margin:auto;
+padding:10px;
+font-size:1.2em;
+}
+
+table .th-blue,table .td-blue {
+background-color:#444;
+text-align:center;
+padding:5px 10px;
+}
+
+table .th-orange,table .td-orange {
+background-color:#555;
+text-align:center;
+padding:5px 10px;
+}
+
+/*///////////////////////////////////////////////////////////////////////*/
+.partners-body {
+background-image:url(../img/bg_partners.png);
+}
+
+.ourPartners {
+width:960px;
+height:50px;
+color:#fff;
+text-align:center;
+background-color:#666;
+font-size:1.5em;
+margin:-20px 0 0;
+padding: 5px 0;
+}
+
+.partners-con {
+color:#FFF;
+width:950px;
+margin:auto;
+height:auto;
+padding:5px;
+background-color:#333;
+}
+
+.partners-con div {
+width:940px;
+height:auto;
+margin:auto;
+padding:0;
+background-color:#333;
+}
+
+.partners-con .partnerNAV h1,.partners-con .partnerNAV h2,.partners-con .partnerNAV a,.partners-con .partnerNAV_2 h1 {
+width:250px;
+height:auto;
+margin:0 112px 0 0;
+font-size:1em;
+padding:5px;
+display:inline-block;
+}
+
+.partners-con .partnerNAV a {
+width:auto;
+background-color:#f30;
+color:#fff;
+padding:5px;
+text-decoration:none;
+margin:0 0 0 100px;
+}
+
+.partners-con .partnerNAV a:hover {
+box-shadow:0 2px 2px #f30;
+background-color:#3399ff;
+}
+
+.partners-con p {
+background-color:#444;
+display:inline-block;
+width:940px;
+height:auto;
+padding:5px;
+}
+
+.partnerNAV_2 {
+font-size:1em;
+}
+
+.partnerNAV_2 span {
+color:#39f;
+}
+
+.partnerNAV_2 h1 {
+display:inline-block;
+margin:auto;
+}
+
+.sm-links,.sm-fixed {
+float:left;
+position:fixed;
+top:0;
+margin:115px 0 0 1%;
+}
+
+.sm-links ul li {
+list-style-type:none;
+margin:0;
+padding:0;
+}

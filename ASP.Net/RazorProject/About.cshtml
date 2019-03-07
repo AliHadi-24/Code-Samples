@@ -1,0 +1,78 @@
+﻿@{
+    Layout = "~/_SiteLayout.cshtml";
+    Page.Title = "Razor Testing";
+}
+
+<hgroup class="title">
+    <h1>@Page.Title.</h1>
+    <h2>Your app description page.</h2>
+    @{ 
+            var guardinarelation = "m";
+            switch (guardinarelation)
+            {
+                case "m": case "M":
+                    guardinarelation = "Mother";
+                    break;
+
+                case"f": case "F":
+                    guardinarelation = "Father";
+                    break;
+
+
+                case "b": case "B":
+                    guardinarelation = "Brother";
+                    break;
+
+
+                case "fr": case "Fr":
+                    guardinarelation = "Friend";
+                    break;
+
+                default:
+                    guardinarelation = "UNKNOWN";
+                    break;
+
+            }
+        }
+
+    @{
+        var guardingender = "m";
+        switch (guardingender)
+        {
+            case "m":
+            case "M":
+                guardingender = "Male";
+                break;
+
+            case "f":
+            case "F":
+                guardingender = "Female";
+                break;
+
+        }
+    }
+
+</hgroup>
+
+<article>
+    <p>
+        Guardina Gender is :@guardingender
+    </p>
+
+    <p>
+        Guardina Relation is :@guardinarelation
+    </p>
+
+</article>
+
+<aside>
+    <h3>Aside Title</h3>
+    <p>
+        Use this area to provide additional information.
+    </p>
+    <ul>
+        <li><a href="~/">Home</a></li>
+        <li><a href="~/About">About</a></li>
+        <li><a href="~/Contact">Contact</a></li>
+    </ul>
+</aside>

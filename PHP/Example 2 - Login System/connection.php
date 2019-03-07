@@ -1,0 +1,8 @@
+<?php
+$conn = mysqli_connect("localhost:3306", "root", "", "cms");
+if (!$conn)
+{
+	print "Connection not successful";
+	exit();
+}
+?>
