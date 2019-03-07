@@ -1,1 +1,1 @@
-Thouse are some project and code samples that I worked on.
+Thouse are some project and code samples that I did.
